@@ -1,0 +1,24 @@
+{
+	"name": "NestJS Dev Environment",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"terminal.integrated.profiles.linux": {
+					"bash": {
+						"path": "/bin/bash"
+					}
+				}
+			},
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"eamodio.gitlens",
+				"Prisma.prisma",
+				"esbenp.prettier-vscode"
+			]
+		}
+	},
+	"remoteUser": "node"
+}
